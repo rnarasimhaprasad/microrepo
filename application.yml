@@ -2,4 +2,4 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone : http://localhost:8010/eureka
+      defaultZone : http://eureka-one:8011/eureka,http://eureka-two:8012/eureka/,http://eureka-three:8013/eureka/
